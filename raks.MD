@@ -1,13 +1,14 @@
 <html>
 <head>
-<title>md</title>
+<title>Assignment
+</title>
 </head>
-<body>
-<ul><li><h1> RIDGE REGRESSION</h1></li>
-<P>Ridge regression is a way to create a parsimonious model <BR>
-when the number of predictor variables in a set exceeds the number of observations,
-or when a data set has multicollinearity (correlations between predictor variables).</P>
-<H2>Ridge Regression vs. Least Squares</H2>
+<body bgcolor="LightGray">
+<ul><li><h1 style="color:RED;font-size:35px;text-align:left;"> RIDGE REGRESSION</h1></li>
+<P><font size='5'>Ridge regression is a way to create a parsimonious model <BR>
+when the number of predictor variables in a set exceeds the number of observations,<br>
+or when a data set has multicollinearity (correlations between predictor variables).</font></P>
+<H2><font size="5">Ridge Regression vs. Least Squares</H2>
 <P>Least squares regression isn’t defined at all when the number of predictors exceeds <br>the number of observations;
  It doesn’t differentiate “important” from “less-important” predictors in a model,<br> so it includes all of them. 
 This leads to overfitting a model and failure to find unique solutions. Least squares<br> also has issues dealing 
@@ -29,11 +30,11 @@ The new formula is used to find the coefficients:<br>
 Choosing a value for k is not a simple task,
 which is perhaps one major reason why ridge regression isn’t used as much as least squares or logistic regression.
 
-<H2>BENIFIT OF RIDGE REGRESSION</H2>
+<H2>BENEFIT OF RIDGE REGRESSION</H2>
 <UL><LI>The ridge regression line has small amount of bias due to penalty and has less variance.</li>
 <li>The prediction made with the ridge regression line are less sensitive wieght than least square lines.</li></ul>
 
-<li><H1>LASSO REGRESSION</H1></LI>
+<li><H1 style="color:green;font-size:35px;text-align:left">LASSO REGRESSION</H1></LI>
 <UL><LI>Performs L1 regularization, <BR>i.e. adds penalty equivalent to absolute value of the magnitude of coefficients</LI>
 <LI>Minimization objective = LS Obj + a * (sum of absolute value of coefficients)</LI></UL>
 <BR>Note that here ‘LS Obj’ refers to ‘least squares objective’,i.e. the linear regression objective without regularization.<BR>
@@ -47,11 +48,13 @@ Lasso, or Least Absolute Shrinkage and Selection Operator, is quite similar conc
 coefficients (the so-called L2 penalty), lasso penalizes the sum of their absolute values (L1 penalty).<BR>
  As a result, for high values of ?, many coefficients are exactly zeroed under lasso, <BR>
 which is never the case in ridge regression.<BR>
-<LI><H1>ELASTIC NET</H1></LI>
+<LI><H1 style="color:Blue;font-size:35px;text-align:left">ELASTIC NET</H1></LI>
 Elastic Net first emerged as a result of critique on lasso, whose variable selection can be too dependent on data<BR>
  and thus unstable. The solution is to combine the penalties of ridge regression and lasso to get the best of both worlds.<BR>
 <BR>
 Elastic net is basically a combination of both L1 and L2 regularization. So if you know elastic net,<BR>
- you can implement both Ridge and Lasso by tuning the parameters. So it uses both L1 and L2 penality term.
+ you can implement both Ridge and Lasso by tuning the parameters. So it uses both L1 and L2 penality term.</font><BR>
+<H2 STYLE="COLOR:PURPLE;FONT-SIZE:25PX;TEXT-ALIGN:CENTER;">THANK YOU</H2>
+<H2 STYLE="COLOR:BROWN;FONT-SIZE:25PX;TEXT-ALIGN:RIGHT;">NAME:RUPESH RANJAN KUMAR<BR>HML118</H2>
 </body>
 </html>
